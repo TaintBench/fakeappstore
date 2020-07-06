@@ -72,7 +72,8 @@
         "appendToString": true
       },
       "ID": 1,
-      "description": "This malicious flow reads contacts from the device and spams them with SMS."
+      "description": "This malicious flow reads contacts from the device and spams them with SMS.",
+      "isNegative": false
     },
     {
       "source": {
@@ -161,7 +162,8 @@
         "threading": true
       },
       "ID": 2,
-      "description": "This malicous flow reads a message from an HTTP Server and sends a SMS to the retreived numbers (command and control)."
+      "description": "This malicous flow reads a message from an HTTP Server and sends a SMS to the retreived numbers (command and control).",
+      "isNegative": false
     },
     {
       "source": {
@@ -228,7 +230,8 @@
         "threading": true
       },
       "ID": 3,
-      "description": "This malicious flow leaks the device id to an HTTP Server."
+      "description": "This malicious flow leaks the device id to an HTTP Server.",
+      "isNegative": false
     }
   ]
 }
